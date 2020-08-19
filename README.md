@@ -1,5 +1,6 @@
 ![Go URL logo](/images/go_url.png)
-#GO URL Shortener
+
+#GO URL 
 >GO URL is a url shortening api made with go gin/gonic and postgres. I made this just as a simple excursion into backend development and api design. As such there are no plans to actually host this/build a full web app around it at the moment however anyone is free to use/modify this project for their own use. 
 
 ##Installation 

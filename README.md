@@ -1,9 +1,9 @@
 ![Go URL logo](/images/go_url.png)
 
-#GO URL 
+# GO URL 
 >GO URL is a url shortening api made with go gin/gonic and postgres. I made this just as a simple excursion into backend development and api design. As such there are no plans to actually host this/build a full web app around it at the moment however anyone is free to use/modify this project for their own use. 
 
-##Installation 
+## Installation 
 As a prerequisite to running this application you need to have go, docker and docker-compose installed on your pc as a minimum and postgres if you want to have a local database rather than one in a docker container. 
 
 ```
@@ -29,7 +29,7 @@ For Linux docker/docker-compose setup, read the official docs [here](https://doc
 ``` 
 After having everything set up clone the repository to your pc 
 
-##Running the app
+## Running the app
 Navigate to the project directory and run the following commands: 
 ```
     docker-compose build  

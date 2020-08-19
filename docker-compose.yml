@@ -1,0 +1,18 @@
+version: '3'
+services:
+  database:
+    container_name: lulu
+    image: "postgres" # use latest official postgres version
+    env_file:
+      - ./db/database.env # configure postgres
+    volumes:
+      - database-data:/var/lib/postgresql/data/ # persist data even if container shuts down
+    ports:
+        - "8001:5432" 
+  backend: 
+    container_name: url-api
+    build: . 
+    ports: 
+      - "8080:8080"
+volumes:
+  database-data: 

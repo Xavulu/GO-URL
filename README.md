@@ -82,7 +82,9 @@ Which returns the following after your shorturl has been used 3 times:
 ``` 
     {"code":200,
     "message":{
-        "original_url":"https://www.google.com","short_url":"http://localhost:8080/o/c","visited":true,
+        "original_url":"https://www.google.com",
+        "short_url":"http://localhost:8080/o/c",
+        "visited":true,
         "visit_count":3,
         "visit_times":
             ["2020-08-19T22:58:50.590696Z",

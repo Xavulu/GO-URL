@@ -96,10 +96,9 @@ Which returns the following after your shorturl has been used 3 times:
 ## TODOS
 
 - Proper unit testing 
-- Add logging to mongodb or some other service 
-- Add swagger/openapi documentation 
+- Add persistant logging to some other service 
 - Frontend client (still wont be hosted because hosting and manging a url shortener comes with a lot of growing pains I am not interested in dealing with) 
-- Integrate the google safe browsing api to prevent malicious from being entered in the database (a common problem for many url shortening services) 
+- Integrate the google safe browsing api to prevent malicious urls from being entered in the database (a common problem for many url shortening services) 
 
 
 
